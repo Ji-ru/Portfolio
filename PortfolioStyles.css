@@ -493,6 +493,8 @@ p {
     overflow: hidden;
     border: 1px solid var(--border);
     box-shadow: 0 10px 30px var(--shadow);
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .window-header {
@@ -543,7 +545,9 @@ p {
     font-size: inherit;
     line-height: 1.5;
     display: block;
-    white-space: pre;
+    white-space: pre-wrap; /* allow wrapping to avoid horizontal overflow */
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 .illustration-grid {
