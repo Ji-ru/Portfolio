@@ -12,7 +12,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 - **About Me** - Personal background and professional summary
 - **Education** - Academic timeline and achievements
 - **Skills** - Interactive scrollable skill cards with auto-animation
-- **Projects** - Showcase of 4 featured projects with screenshots and details
+- **Projects** - Showcase of 5 featured projects with screenshots, live application links, and details
 - **Contact** - Multiple ways to connect and collaborate
 
 ### Technical Features
@@ -30,81 +30,27 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 - **Font Awesome 6.4** - Icon library
 - **Google Fonts** - Inter & Space Grotesk fonts
 
-## 📁 Project Structure
-
-```
-MyPortfolio/
-├── portfolio.html           # Main HTML file
-├── PortfolioStyles.css     # Complete styling
-├── README.md               # This file
-└── assets/
-    ├── images/
-    │   ├── screenshots/    # Project screenshots
-    │   │   ├── fuller-*.png
-    │   │   ├── oceanify-*.png
-    │   │   └── fitness-*.png
-    └── resume/
-        └── Resume.pdf      # Resume file
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- No build tools or dependencies required
-
-### Installation
-1. Clone or download this repository
-2. Open `portfolio.html` in your web browser
-3. Customize content with your own information
-
-## ✏️ Customization
-
-### Update Personal Information
-Edit `portfolio.html` to replace:
-- Name: "Jibril Leandear Paul M. Rubi"
-- Email: "s.rubi.jibrilleandearpaul@cmu.edu.ph"
-- Location: "Surigao City, Philippines"
-- Education details
-- Project information
-
-### Modify Colors
-Edit `PortfolioStyles.css` CSS variables in `:root`:
-```css
---primary: #001f3f;       /* Navy Blue */
---secondary: #000000;     /* Black */
---accent: #0066cc;        /* Bright Blue */
-```
-
-### Add/Remove Projects
-1. Duplicate a project card in the PROJECTS SECTION
-2. Update project details, screenshots, and links
-3. Ensure screenshot files exist in `assets/images/screenshots/`
-
-### Update Skills
-Add or remove skill cards in the SKILLS SECTION:
-```html
-<div class="skill-card">
-    <i class="fab fa-skill-icon"></i>
-    <span>Skill Name</span>
-</div>
-```
-
 ## 🎯 Projects Included
 
 1. **Fuller-Based English Reading Mobile App** (Capstone Project)
+   - **Status:** Deployed on Google Play Store 🚀
    - React Native, Speech Recognition, Firebase
    - 9 screenshot variations
 
-2. **Oceanify: Weather App for Seafarers** (Team Lead)
+2. **Tuklas: Philippine Travel Itinerary & Exploration Platform** (Full Stack Web App)
+   - **Live App:** [https://tuklas-lac.vercel.app](https://tuklas-lac.vercel.app)
+   - React, TypeScript, Vite, Tailwind CSS, Framer Motion, AI Travel Assistant
+   - Custom itineraries, ferry logistics, island exploration, and AI chat companion
+
+3. **Oceanify: Weather App for Seafarers** (Team Lead)
    - React, Laravel, Interactive Maps, Supabase
    - 4 screenshot variations
 
-3. **EZ Fitness Gym Management System** (Team Member)
+4. **EZ Fitness Gym Management System** (Team Member)
    - Laravel, MySQL, HTML/CSS, JavaScript
    - 8 screenshot variations
 
-4. **Dental Clinic Management System** (Solo Project)
+5. **Dental Clinic Management System** (Solo Project)
    - VB.NET, MS Access, Desktop Application
 
 ## 🎨 Design Highlights
