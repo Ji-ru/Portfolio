@@ -54,11 +54,11 @@ This is a personal portfolio. For suggestions or improvements, please create an 
 
 ## 📧 Contact
 
-**Email:** s.rubi.jibrilleandearpaul@cmu.edu.ph  
+**Email:** jibrilmrubi@gmail.com  
 **Location:** Surigao City, Philippines  
 **GitHub:** [Ji-ru](https://github.com/Ji-ru)
 
 ---
 
-**Status:** Available for Internship Opportunities (2024)  
+**Status:** Available for Employment Opportunities (2024)  
 **Last Updated:** February 2026
